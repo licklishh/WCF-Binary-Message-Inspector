@@ -1,24 +1,12 @@
 WCF Binary Message Inspector
 ============================
 
-This is a modification of the [WCF Binary Message Inspector](http://archive.msdn.microsoft.com/wcfbinaryinspector). It provides two notable enhancements:
+This is a modification of the [waf/WCF Binary Message Inspector](https://github.com/waf/WCF-Binary-Message-Inspector). 
 
-1. Uses a collapsible tree view instead of a textarea to display the decoded WCF binary message.
-2. Allows editing and reissuing of captured WCF binary messages (thanks to [HofmaDresu](https://github.com/HofmaDresu))
+Breaking Changes:
+Changed to use .NET Binary Format: SOAP Data Structure [Protocol 5.0](https://msdn.microsoft.com/en-us/library/cc219175.aspx), used to view Content-Type: application/soap+msbin1
 
-Installation for Fiddler2
-------------
-
-Copy the file `BinaryMessageFiddlerExtension/bin/Release/BinaryMessageFiddlerExtension.dll` 
-([direct download](https://github.com/waf/WCF-Binary-Message-Inspector/raw/master/BinaryMessageFiddlerExtension/bin/Release/BinaryMessageFiddlerExtension.dll)) 
-into `C:\Program Files\Fiddler2\Inspectors` and restart Fiddler.
-
-Installation for Fiddler4 (Beta)
-------------
-
-Copy the file `BinaryMessageFiddlerExtension/bin/Release/BinaryMessageFiddlerExtension_Fiddler4.dll` 
-([direct download](https://github.com/waf/WCF-Binary-Message-Inspector/raw/master/BinaryMessageFiddlerExtension/bin/Release/BinaryMessageFiddlerExtension_Fiddler4.dll)) 
-into `C:\Program Files\Fiddler2\Inspectors` and restart Fiddler.
+Todo: Changed panel name to coexist with original plugin / integrate into same plugin, until then this is not compatiable with original WCF Binary Message Inspector
 
 Tree View Usage
 ---------------
