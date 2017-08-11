@@ -4,9 +4,12 @@ WCF Binary Message Inspector
 This is a modification of the [waf/WCF Binary Message Inspector](https://github.com/waf/WCF-Binary-Message-Inspector). 
 
 Breaking Changes:
+---------------
 Changed to use .NET Binary Format: SOAP Data Structure [Protocol 5.0](https://msdn.microsoft.com/en-us/library/cc219175.aspx), used to view Content-Type: application/soap+msbin1
 
-Todo: Changed panel name to coexist with original plugin / integrate into same plugin, until then this is not compatiable with original WCF Binary Message Inspector
+Todo: Changed panel name to coexist with original plugin / integrate into same plugin, until then this is not compatiable with original WCF Binary Message Inspector.
+
+Download DLL [Here](https://github.com/licklishh/WCF-Binary-Message-Inspector/raw/master/BinaryMessageFiddlerExtension/bin/Release/BinaryMessageFiddlerExtension.dll).
 
 Tree View Usage
 ---------------
